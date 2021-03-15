@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 # Read the image file
-image = cv2.imread('car0.JPG')
+image = cv2.imread('car1.JPG')
 # Convert to Grayscale Image
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
